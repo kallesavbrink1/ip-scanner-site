@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IP Scanner – 개인정보 처리방침</title>
+<meta name="description" content="IP Scanner – Network Tools 개인정보 처리방침: 계정 없음, 추적 없음, 스캔 결과는 내 기기에만 남습니다.">
+<link rel="canonical" href="https://kallesavbrink1.github.io/ip-scanner-site/ko/privacy.html">
+<link rel="alternate" hreflang="en" href="https://kallesavbrink1.github.io/ip-scanner-site/privacy.html">
+<link rel="alternate" hreflang="es" href="https://kallesavbrink1.github.io/ip-scanner-site/es/privacy.html">
+<link rel="alternate" hreflang="pt-BR" href="https://kallesavbrink1.github.io/ip-scanner-site/pt-br/privacy.html">
+<link rel="alternate" hreflang="de" href="https://kallesavbrink1.github.io/ip-scanner-site/de/privacy.html">
+<link rel="alternate" hreflang="fr" href="https://kallesavbrink1.github.io/ip-scanner-site/fr/privacy.html">
+<link rel="alternate" hreflang="ja" href="https://kallesavbrink1.github.io/ip-scanner-site/ja/privacy.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://kallesavbrink1.github.io/ip-scanner-site/zh/privacy.html">
+<link rel="alternate" hreflang="ko" href="https://kallesavbrink1.github.io/ip-scanner-site/ko/privacy.html">
+<link rel="alternate" hreflang="sv" href="https://kallesavbrink1.github.io/ip-scanner-site/sv/privacy.html">
+<link rel="alternate" hreflang="x-default" href="https://kallesavbrink1.github.io/ip-scanner-site/privacy.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IP Scanner – 개인정보 처리방침">
+<meta property="og:description" content="IP Scanner – Network Tools 개인정보 처리방침: 계정 없음, 추적 없음, 스캔 결과는 내 기기에만 남습니다.">
+<meta property="og:url" content="https://kallesavbrink1.github.io/ip-scanner-site/ko/privacy.html">
+<meta property="og:locale" content="ko_KR">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<nav><div><a href="../ko/index.html">IP Scanner</a><a href="../ko/privacy.html">개인정보</a><a href="../ko/support.html">지원</a></div></nav>
+<main>
+<h1>개인정보 처리방침</h1>
+<p class="meta">IP Scanner · 최종 업데이트 2026년 11월 1일</p>
+<p class="note">이 번역은 편의를 위해 제공됩니다. 영어 버전과 다른 경우 영어 버전이 우선합니다.</p>
+<p class="note"><a href="../privacy.html" hreflang="en" lang="en">English (original)</a></p>
+<p>IP Scanner는 연결된 로컬 네트워크의 기기를 나열하고 식별합니다. 계정, 분석, 광고, 추적이 없습니다. 개발자는 앱에서 어떤 데이터도 받지 않습니다.</p>
+<h2>내 기기에 남는 정보</h2>
+<p>스캔 결과, 직접 편집한 기기 이름, 메모, 즐겨찾기, 스캔 기록, 도구 기록은 내 기기에만 저장됩니다. 다른 앱의 데이터와 마찬가지로 기기의 일반적인 iCloud 또는 컴퓨터 백업에 포함됩니다. 앱의 Settings › Forget All Devices에서 또는 앱을 삭제하여 모두 지울 수 있습니다.</p>
+<p>앱은 사용자가 시스템 공유 시트를 통해 직접 선택할 때만 데이터를 내보내거나 공유합니다.</p>
+<h2>로컬 네트워크 접근</h2>
+<p>기기를 찾기 위해 앱은 iOS에 로컬 네트워크 접근 권한을 요청합니다. 그런 다음 각 기기가 무엇인지 파악하기 위해 해당 네트워크의 주소와 통신합니다(ping, 일반적인 포트에 대한 연결 시도, Bonjour·UPnP·NetBIOS 이름 조회, 기기 자체의 웹 페이지). 이 트래픽은 로컬 네트워크 안에서만 오갑니다.</p>
+<h2>인터넷으로 전송되는 정보</h2>
+<p>일부 기능은 인터넷의 서비스에 연결해야 합니다. 이 요청은 내 기기에서 직접 전송되며 개발자는 볼 수 없습니다.</p>
+<ul>
+<li><strong>공인 IP와 국가</strong>(Network 탭): 기기가 Cloudflare(<code>www.cloudflare.com</code>)에 공인 IP 주소와 해당 주소가 속한 국가를 요청합니다. 실패하면 <code>api64.ipify.org</code>에 IP 주소만 요청합니다. 이 서비스들은 모든 인터넷 요청과 마찬가지로 공인 IP 주소를 받습니다. 계정이나 토큰은 사용하지 않습니다.</li>
+<li><strong>연결 확인</strong>(Network 탭): 앱은 Cloudflare, Google, Quad9의 공개 DNS 서버가 연결 시도에 얼마나 빨리 응답하는지 측정합니다. 개인 데이터는 전송되지 않습니다.</li>
+<li><strong>속도 테스트</strong>(시작했을 때만): Cloudflare의 속도 테스트 서버(<code>speed.cloudflare.com</code>)와 데이터를 내려받고 올립니다.</li>
+<li><strong>실행하는 도구</strong>: Ping, Traceroute, Port Scanner, DNS Lookup, HTTP Inspector는 입력한 호스트나 DNS 서버에만 연결하며 그 외에는 연결하지 않습니다.</li>
+</ul>
+<p>이 서비스들은 각자의 개인정보 처리방침에 따라 요청을 처리합니다.</p>
+<h2>어린이</h2>
+<p>앱은 어린이를 포함하여 누구의 개인 데이터도 수집하지 않습니다.</p>
+<h2>변경</h2>
+<p>이 방침이 변경되면 새 버전이 새로운 날짜와 함께 이 페이지에 게시됩니다.</p>
+<h2>문의</h2>
+<p>개인정보에 대해 궁금한 점이 있나요? <a href="../ko/support.html">지원 페이지</a>를 확인하세요.</p>
+</main>
+<footer>
+<p>다른 언어: <a href="../privacy.html" hreflang="en" lang="en">English</a> · <a href="../es/privacy.html" hreflang="es" lang="es">Español</a> · <a href="../pt-br/privacy.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../de/privacy.html" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/privacy.html" hreflang="fr" lang="fr">Français</a> · <a href="../ja/privacy.html" hreflang="ja" lang="ja">日本語</a> · <a href="../zh/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <strong lang="ko">한국어</strong> · <a href="../sv/privacy.html" hreflang="sv" lang="sv">Svenska</a></p>
+<p>IP Scanner – Network Tools는 iPhone과 iPad용 유틸리티입니다.</p>
+</footer>
+</body>
+</html>

@@ -32,3 +32,21 @@ nav { border-bottom: 1px solid var(--rule); }
 nav div { max-width: 680px; margin: 0 auto; padding: 14px 16px; display: flex; gap: 20px; }
 nav a { text-decoration: none; font-weight: 600; }
 code { font: 15px ui-monospace, SFMono-Regular, Menlo, monospace; }
+
+/* multilingual additions */
+.badge { display: inline-block; margin: 8px 0 4px; }
+.badge img { height: 48px; width: auto; display: block; }
+.lead { font-size: 19px; }
+.tagline { color: var(--secondary); font-size: 19px; margin: 0 0 24px; }
+.tools { list-style: none; padding: 0; }
+.tools li { padding: 8px 0; border-bottom: 1px solid var(--rule); margin: 0; }
+.tools li:last-child { border-bottom: 0; }
+.tools span { color: var(--secondary); }
+h3 { font-size: 17px; margin: 22px 0 4px; }
+.faq p { margin-bottom: 8px; }
+.note { color: var(--secondary); font-size: 15px; }
+footer { max-width: 680px; margin: 0 auto; padding: 0 16px 48px; color: var(--secondary); font-size: 15px; }
+footer p { margin: 0 0 8px; }
+footer a { white-space: nowrap; }
+nav div { flex-wrap: wrap; }
+nav a.lang-current { }
