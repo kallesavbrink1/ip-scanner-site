@@ -1,0 +1,12 @@
+name: Check site
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 6 * * 1"
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 check.py --live
